@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My News Site</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>📰 My News Site</h1>
-    <nav>
+  <header class="topbar">
+    <div class="logo">🗞️ MyNews</div>
+    <nav class="nav">
       <a href="#">Home</a>
       <a href="#">World</a>
       <a href="#">Tech</a>
-      <a href="#">Contact</a>
+      <a href="#">Shows</a>
+      <a href="#">Columns</a>
+      <a href="#">About</a>
     </nav>
   </header>
 
-  <main>
-    <article>
-      <h2>Breaking</h2>
-      <p>.</p>
-    </article>
-    <article>
-      <h2>More News Coming Soon</h2>
-      <p>Stay tuned for regular updates and stories from around the world.</p>
-    </article>
+  <main class="content">
+    <section class="featured">
+      <article class="main-article">
+        <img src="https://via.placeholder.com/800x400" alt="Main Story" />
+        <h2>Main Story: Breaking News Title Goes Here</h2>
+        <p>This is a short summary of the breaking news. Click to read more.</p>
+      </article>
+
+      <article class="side-article">
+        <img src="https://via.placeholder.com/400x200" alt="Side Story" />
+        <h3>Can Something Be Undone?</h3>
+        <p>Short summary of the article goes here.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <h3>Most Popular</h3>
+      <ul>
+        <li>
+          <a href="#">🔴 Watch: Major Global Event Coverage</a>
+          <span>Aug 7, 2024</span>
+        </li>
+        <li>
+          <a href="#">📌 8 Critical Quotes from Leaders</a>
+        </li>
+        <li>
+          <a href="#">🎤 Exclusive Interview with Insider</a>
+        </li>
+      </ul>
+    </aside>
   </main>
 
   <footer>
-    <p>© 2025 My News Site</p>
+    <p>© 2025 MyNews. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
